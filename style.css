@@ -1,0 +1,151 @@
+@media only screen and (max-width: 1130px) {
+  h1 {
+    width: 30%;
+  }
+  nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  nav ul li {
+    display: block;
+    list-style: none;
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 1130px) {
+  nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 0 2rem;
+  }
+}
+
+* {
+  font-family: "Work Sans", monospace;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(81, 134, 123);
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 30pt;
+  margin: 0;
+  color: rgb(192, 232, 224);
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  font-size: 14pt;
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  padding: 3rem;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+main a {
+  color: rgb(81, 134, 123);
+  text-decoration: none;
+}
+
+main a:hover {
+  opacity: 0.6;
+}
+
+fieldset {
+  width: 50vw;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+
+legend {
+  text-transform: uppercase;
+  font-size: 14pt;
+  text-align: center;
+}
+
+fieldset div.input {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset input[type="text"],
+fieldset input[type="email"],
+fieldset textarea {
+  width: 70%;
+}
+
+button {
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 14pt;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.flexGallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.galleryImage {
+  margin: 0;
+}
+
+figure {
+  margin: 1rem;
+}
+
+figure img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+figcaption {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  width: 300px;
+}
+
+footer {
+  background-color: rgb(102, 163, 148);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
